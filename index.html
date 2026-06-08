@@ -131,7 +131,7 @@
             display: flex;
             flex-wrap: wrap;
             gap: 20px;
-            justify-content: space-around;
+            justify-content: center;
         }
 
         .member-card {
@@ -139,7 +139,8 @@
             flex-direction: column;
             align-items: center;
             text-align: center;
-            width: 120px;
+            width: 110px;
+            margin-bottom: 10px;
         }
 
         .member-img {
@@ -157,11 +158,11 @@
         }
 
         /* Fun vibrant background variations for members */
-        .member-card:nth-child(1) .member-img { background-color: #ffadad; }
-        .member-card:nth-child(2) .member-img { background-color: #ffd6a5; }
-        .member-card:nth-child(3) .member-img { background-color: #fdffb6; }
-        .member-card:nth-child(4) .member-img { background-color: #caffbf; }
-        .member-card:nth-child(5) .member-img { background-color: #9bf6ff; }
+        .member-card:nth-child(5n+1) .member-img { background-color: #ffadad; }
+        .member-card:nth-child(5n+2) .member-img { background-color: #ffd6a5; }
+        .member-card:nth-child(5n+3) .member-img { background-color: #fdffb6; }
+        .member-card:nth-child(5n+4) .member-img { background-color: #caffbf; }
+        .member-card:nth-child(5n+5) .member-img { background-color: #9bf6ff; }
 
         .member-name {
             font-weight: bold;
@@ -365,32 +366,81 @@
                 
                 <div class="member-card">
                     <div class="member-img">😎</div>
-                    <p class="member-name">Alex</p>
-                    <p class="member-role">Editor / Admin</p>
+                    <p class="member-name">Rizqi</p>
+                    <p class="member-role">Classmate</p>
                 </div>
 
                 <div class="member-card">
                     <div class="member-img">✨</div>
-                    <p class="member-name">Sarah</p>
-                    <p class="member-role">Photographer</p>
+                    <p class="member-name">Ghaisan</p>
+                    <p class="member-role">Classmate</p>
                 </div>
 
                 <div class="member-card">
                     <div class="member-img">🎨</div>
-                    <p class="member-name">Jordan</p>
-                    <p class="member-role">Art Director</p>
+                    <p class="member-name">Nabeel</p>
+                    <p class="member-role">Classmate</p>
                 </div>
 
                 <div class="member-card">
                     <div class="member-img">🍕</div>
-                    <p class="member-name">Taylor</p>
-                    <p class="member-role">Snack Expert</p>
+                    <p class="member-name">Obien</p>
+                    <p class="member-role">Classmate</p>
                 </div>
 
                 <div class="member-card">
                     <div class="member-img">⚡</div>
-                    <p class="member-name">Morgan</p>
-                    <p class="member-role">Vibe Coordinator</p>
+                    <p class="member-name">Thariq</p>
+                    <p class="member-role">Classmate</p>
+                </div>
+
+                <div class="member-card">
+                    <div class="member-img">🚀</div>
+                    <p class="member-name">Fayyadh</p>
+                    <p class="member-role">Classmate</p>
+                </div>
+
+                <div class="member-card">
+                    <div class="member-img">🔥</div>
+                    <p class="member-name">Caessar</p>
+                    <p class="member-role">Classmate</p>
+                </div>
+
+                <div class="member-card">
+                    <div class="member-img">⭐</div>
+                    <p class="member-name">Nayla</p>
+                    <p class="member-role">Classmate</p>
+                </div>
+
+                <div class="member-card">
+                    <div class="member-img">💎</div>
+                    <p class="member-name">Qanita</p>
+                    <p class="member-role">Classmate</p>
+                </div>
+
+                <div class="member-card">
+                    <div class="member-img">🌸</div>
+                    <p class="member-name">Zahra</p>
+                    <p class="member-role">Classmate</p>
+                </div>
+
+                <div class="member-card">
+                    <div class="member-img">ated</div>
+                    <div class="member-img">🍀</div>
+                    <p class="member-name">Aisha</p>
+                    <p class="member-role">Classmate</p>
+                </div>
+
+                <div class="member-card">
+                    <div class="member-img">🎈</div>
+                    <p class="member-name">Syifa</p>
+                    <p class="member-role">Classmate</p>
+                </div>
+
+                <div class="member-card">
+                    <div class="member-img">🧸</div>
+                    <p class="member-name">Khadeeja</p>
+                    <p class="member-role">Classmate</p>
                 </div>
 
             </div>
@@ -423,33 +473,18 @@
         <div class="grid">
             
             <div class="post-card">
-                <div class="post-image">🖼️</div>
-                <div class="post-caption">First day of the semester! Everyone looked so sharp. 📐✍️</div>
+                <div class="post-image">🔥</div>
+                <div class="post-caption">PSNG First BBQ Hangout</div>
             </div>
 
             <div class="post-card">
-                <div class="post-image">📸</div>
-                <div class="post-caption">Messing around during the lunch break. Best team ever! 🥪🥤</div>
+                <div class="post-image">🌙</div>
+                <div class="post-caption">PSNG Bukber 26</div>
             </div>
 
             <div class="post-card">
-                <div class="post-image">🎨</div>
-                <div class="post-caption">Art class projects finally finished. Look at those vibrant colors! 🎨👩‍🎨</div>
-            </div>
-
-            <div class="post-card">
-                <div class="post-image">🏃‍♂️</div>
-                <div class="post-caption">Field day champions! Hard work pays off 🥇🏆</div>
-            </div>
-
-            <div class="post-card">
-                <div class="post-image">🌤️</div>
-                <div class="post-caption">After school vibes. Time for some homework... or video games? 🎒🎮</div>
-            </div>
-
-            <div class="post-card">
-                <div class="post-image">🚌</div>
-                <div class="post-caption">Throwback to our favorite school field trip. Take us back! 🚌🌲</div>
+                <div class="post-image">🌊</div>
+                <div class="post-caption">PSNG Beach Hangout</div>
             </div>
 
         </div>
